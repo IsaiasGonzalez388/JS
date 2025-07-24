@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Condicionales</title>
+  </head>
+  <body>
+    <script>
+      let menu = parseInt(
+        prompt("1-Consultar saldo 2-Retirar dinero 3-Depositar dinero 4-Salir ")
+      );
+
+      switch (menu) {
+        case 1:
+          console.log("Mostrando Saldo...");
+          break;
+        case 2:
+          console.log("Procediendo al retiro del dinero...");
+          break;
+        case 3:
+          console.log("Preparando deposito...");
+        case 4:
+          console.log("Gracias por usar el cajero. ¡Hasta luego!");
+          break;
+        default:
+          console.log("Opcion invalida. Intente de nuevo");
+      }
+    </script>
+  </body>
+</html>

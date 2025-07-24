@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Condicionales</title>
+  </head>
+  <body>
+    <script>
+      let bateria = parseInt(prompt("Ingrese su % de bateria del 1 al 100"));
+
+      if (bateria >= 101 || bateria <= 0)
+        console.log("Debe ingresar un numero entre 1 y 100");
+      else if (bateria >= 80) console.log("Batería llena 🔋");
+      else if (bateria >= 30) console.log("Batería media ⚠️");
+      else bateria < 30;
+      console.log("Batería baja, conectá el cargador 🔌");
+    </script>
+  </body>
+</html>
